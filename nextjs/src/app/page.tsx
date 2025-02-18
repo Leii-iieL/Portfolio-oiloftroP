@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Header />
+        <Header title="Goldtrace Studio" />
         <Image
           className={styles.logo}
           src="/next.svg"

@@ -3,9 +3,11 @@
 import react from "react";
 
 const Header = (props) => {
+    console.log(props);
+    const {title} = props;
 return(
     <div>
-        <h1>My Personal Portfolio</h1>
+        <h1>{title}</h1>
     </div>
 );
 }
