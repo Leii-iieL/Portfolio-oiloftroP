@@ -8,10 +8,11 @@ export default function Home() {
       <main className={styles.main}>
         <Header title="Goldtrace Studio" />
         <Image
-          className={styles.logo}
+          className={styles.logo_goldtrace}
+          // className={styles.logo}
           src="/goldtrace_logo.svg"
           alt="Goldtrace logo"
-          width={1500}
+          width={500}
           height={500}
           priority
         />
@@ -89,7 +90,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          do not go to nextjs.org →
         </a>
       </footer>
     </div>
