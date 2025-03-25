@@ -11,8 +11,8 @@ export default function Home() {
           className={styles.logo}
           src="/goldtrace_logo.svg"
           alt="Goldtrace logo"
-          width={180}
-          height={38}
+          width={1500}
+          height={500}
           priority
         />
         <ol>
