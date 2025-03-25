@@ -9,8 +9,8 @@ export default function Home() {
         <Header title="Goldtrace Studio" />
         <Image
           className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
+          src="/goldtrace_logo.svg"
+          alt="Goldtrace logo"
           width={180}
           height={38}
           priority
