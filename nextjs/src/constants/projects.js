@@ -1,4 +1,4 @@
-import CDA from "@/assets/cda.png"
+import CDA from "@/assets/CDA.png"
 import CDA1 from "@/assets/CDA1.png"
 
 
@@ -11,7 +11,7 @@ const PROJECTS = [
         title: "Font project",
         description: "WOW, that resort sure is nice, too bad you're too broke to stay there.",
         category: "print",
-       // mainImage: CDA.src,
+        mainImage: CDA.src,
         images: [
             {
                 src: "",
