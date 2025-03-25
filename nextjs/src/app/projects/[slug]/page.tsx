@@ -12,14 +12,16 @@ export default async function Page({
 
     console.log("PROJECT", project);
 
-
+    if (!project){
+      return null;
+    }
     return (
         <div>
-            <h1>My Project: {project?.title}</h1>
+            <h1>My Project: {project.title}</h1>
 
-            <p>{project?.description}</p>
+            <p>{project.description}</p>
 
-            <Image src={project?.mainImage} alt={project?.title} width={200} height={200} />
+            <Image src={project.mainImage} alt={project.title} width={200} height={200} />
         </div>
     )
   }

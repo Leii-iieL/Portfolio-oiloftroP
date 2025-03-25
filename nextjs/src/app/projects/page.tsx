@@ -9,7 +9,7 @@ export default function ProjectsPage() {
 
       <div className={styles.row}>
           {
-            PROJECTS.map((project, index) => {
+            PROJECTS.map((project) => {
               return (
                 <div key={project.id} className={styles.projectTeaser}>
                   <h3>{project.title}</h3>
