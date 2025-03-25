@@ -11,7 +11,7 @@ const PROJECTS = [
         title: "Font project",
         description: "WOW, that resort sure is nice, too bad you're too broke to stay there.",
         category: "print",
-        mainImage: CDA.src,
+       // mainImage: CDA.src,
         images: [
             {
                 src: "",
