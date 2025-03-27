@@ -6,8 +6,27 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Header title="Goldtrace Studio" />
-        <Image
+
+      
+          {/* <header className={styles.header}> */}
+
+          <Header title="Goldtrace Studio" /> 
+
+            {/* <Image 
+              className={styles.logo_goldtrace}
+              // className={styles.logo}
+              src="/header_string.svg"
+              alt="Goldtrace logo"
+              width={500}
+              height={400}
+            /> */}
+            
+
+          {/* </header> */}
+
+
+
+        <Image 
           className={styles.logo_goldtrace}
           // className={styles.logo}
           src="/goldtrace_logo.svg"
@@ -52,7 +71,26 @@ export default function Home() {
           </a>
         </div>
       </main>
+
+
       <footer className={styles.footer}>
+        
+          footer placeholder
+  
+      </footer>
+    </div>
+
+    
+
+
+
+  );
+
+  
+}
+
+
+      {/*<footer className={styles.footer}>
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
@@ -81,7 +119,7 @@ export default function Home() {
           />
           Examples
         </a>
-        <a
+        <a 
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -96,6 +134,4 @@ export default function Home() {
           nextjs.org →
         </a>
       </footer>
-    </div>
-  );
-}
+    </div> */}
