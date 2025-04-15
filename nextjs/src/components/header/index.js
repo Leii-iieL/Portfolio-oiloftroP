@@ -9,7 +9,7 @@
     return(
         <header 
             className={styles.header} 
-            style={{backgroundImage: `url(${HeaderString.src})` }}
+            // style={{backgroundImage: `url(${HeaderString.src})` }}
         >
             <div className={styles.menuIcon}></div>
             <h1>{title}</h1>
