@@ -4,3 +4,9 @@
     align-items: center;
     padding-block: 1.5rem;
 }
+
+button{
+    background: none;
+    border: none;
+    padding:0;
+}

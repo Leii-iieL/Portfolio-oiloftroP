@@ -1,17 +1,20 @@
 import CDA from "@/assets/CDA.png"
 import CDA1 from "@/assets/CDA1.png"
+import highland_lh from "@/assets/highland_lh.png"
+import type_poster from "@/assets/type_poster.png"
+import { v4 as uuidv4 } from 'uuid';
 
 
 
 
 const PROJECTS = [
     {
-        id: "1bbd06f2-6441-40ce-a7cd-2838991b862c",
-        slug: "font-project",
-        title: "Font project",
-        description: "WOW, that resort sure is nice, too bad you're too broke to stay there.",
+        id: uuidv4(),
+        slug: "font-poster",
+        title: "Font poster",
+        description: "WOW, that image is SMUSHED.",
         category: "print",
-        mainImage: CDA.src,
+        mainImage: type_poster.src,
         images: [
             {
                 src: "",
@@ -22,7 +25,7 @@ const PROJECTS = [
     },
 
     {
-        id: "1bbd06f2-6441-40ce-a7cd-2838991b862d",
+        id: uuidv4(),
         slug: "epic-boat-project",
         title: "Epic boat project",
         description: "Wow, wouldja lookat that lake, so very nice, i sure hope the titanic doesnt happen again..",
@@ -35,7 +38,24 @@ const PROJECTS = [
                 alt: "",
             }
         ],
-    }
-];
+    },
+
+    {
+        id: uuidv4(),
+        slug: "highland-project",
+        title: "highland project",
+        description: "Amazing, I actually designed something worthwhile.",
+        category: "not web",
+        mainImage: highland_lh.src,
+        images: [
+            {
+                src: "",
+                title: "",
+                alt: "",
+            }
+        ],
+    },
+
+]; //this is linking back the original PROJECTS
 
 export default PROJECTS;

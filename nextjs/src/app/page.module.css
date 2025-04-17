@@ -30,8 +30,10 @@
 .header {
   grid-row-start: 0;
   display: flex;
+  padding-top: 0px;
+  margin-top: 0px;
   align-content: flex-start;
-  border-color: #d62424;
+  border-color: #fbfbfb;
   border-style: solid;
 }
 
