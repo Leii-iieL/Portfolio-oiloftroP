@@ -1,8 +1,8 @@
-import CDA from "@/assets/CDA.png"
-import CDA1 from "@/assets/CDA1.png"
 import highland_lh from "@/assets/highland_lh.png"
 import type_poster from "@/assets/type_poster.png"
+import partners_inw_flyer_lh from "@/assets/partners_inw_flyer_lh.png"
 import { v4 as uuidv4 } from 'uuid';
+import styles from "./projects.css";
 
 
 
@@ -30,7 +30,7 @@ const PROJECTS = [
         title: "Epic boat project",
         description: "Wow, wouldja lookat that lake, so very nice, i sure hope the titanic doesnt happen again..",
         category: "web",
-        mainImage: CDA1.src,
+        mainImage: partners_inw_flyer_lh.src,
         images: [
             {
                 src: "",
