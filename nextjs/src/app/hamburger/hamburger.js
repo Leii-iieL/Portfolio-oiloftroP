@@ -1,3 +1,5 @@
+    /*OLD CODE!!*/
+    
 const PROJECTS = [
     {
         id: "1bbd06f2-6441-40ce-a7cd-2838991b862c",

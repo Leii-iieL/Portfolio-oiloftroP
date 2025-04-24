@@ -1,7 +1,8 @@
  "use client"
 import React from 'react';
- import HeaderString from "@/assets/header_string.svg"
- import styles from "./header.module.css";
+//import HeaderString from "@/assets/header_string.svg"
+import styles from "./header.module.css";
+import Link from 'next/link';
 
  const Header = (props) => {
     console.log(props); //not NEEDED, just console log for testing
@@ -10,18 +11,30 @@ import React from 'react';
     return(
         <header 
             className={styles.header} 
-            // header string style, not needed style={{backgroundImage: `url(${HeaderString.src})` }}
+            // header string from old version, not needed: style={{backgroundImage: `url(${HeaderString.src})` }}
         >
-            <div className={styles.menuIcon}></div>
-            <h1>{title}</h1>
+            <div className={styles.menuIcon}><h1>{title}</h1>
+            </div>
             
-            <nav>
-                <l className="topnav__links">
-                    <li className="topnav__item">Home<a href="" class="topnav__link"></a></li>
-                    <li className="topnav__item">Resume<a href="" className="topnav__link"></a></li>
-                    <li className="topnav__item">Projects<a href="@/constants/projects/js" className="topnav__link"></a></li>
-                    <li className="topnav__item">Contact<a href="" className="topnav__link"></a></li>
-                </l>
+            
+            <nav className="styles.topnav_links">
+                <ul>
+                    <li className={styles.topnav_item}>
+                        <Link className={styles.topnav_link} href="/" >Home</Link>
+                    </li>
+
+                    <li className={styles.topnav_item}>
+                        <Link className={styles.topnav_link} href="/" >Resume</Link>
+                    </li>
+
+                    <li className={styles.topnav_item}>
+                        <Link className={styles.topnav_link} href="/projects" >Projects</Link>
+                    </li>
+
+                    <li className={styles.topnav_item}>
+                        <Link className={styles.topnav_link} href="" >Contact</Link>
+                    </li>
+                </ul>
             </nav>
 
         </header>

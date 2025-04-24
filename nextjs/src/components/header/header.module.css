@@ -20,6 +20,7 @@
     height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+    list-style: none;
 }
 
 .header h1 {
@@ -30,4 +31,26 @@
 
 .menuIcon {
     width: 50%;
+}
+
+.topnav_links {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.topnav_links ul {
+    list-style: none;
+}
+
+.topnav_item {
+
+}
+
+.topnav_link {
+
+}
+
+.topnav_links:hover {
+    color:blanchedalmond
 }
