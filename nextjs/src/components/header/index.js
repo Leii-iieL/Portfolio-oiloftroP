@@ -32,7 +32,7 @@ import Link from 'next/link';
                     </li>
 
                     <li className={styles.topnav_item}>
-                        <Link className={styles.topnav_link} href="" >Contact</Link>
+                        <Link className={styles.topnav_link} href="/contact" >Contact</Link>
                     </li>
                 </ul>
             </nav>
