@@ -27,30 +27,41 @@
     width: 50%;
     text-align: center;
     padding-right: 80px;
+    margin-left: 20px;
 }
 
 .menuIcon {
     width: 50%;
 }
 
-.topnav_links {
+.topnav{
     display: flex;
-    justify-content: center;
-    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1.5rem;
 }
 
-.topnav_links ul {
-    list-style: none;
+  @media screen and (max-width: 800px){
+   .topnav_menu {
+    background-color: aliceblue;
+   }
+  }
+
+
+
+.topnav_link /*&_links*/{
+  display: flex;  
+  gap: 1rem;
+  align-items: center;
+  margin: 4px;
+  padding:0; 
 }
 
-/*.topnav_item {
-
+.topnav_item /*&_item*/{
+    list-style-type: none; 
+    float: left;
 }
 
-.topnav_link {
-
-}*/
-
-.topnav_links:hover {
+.topnav_link:hover {
     color:blanchedalmond
 }

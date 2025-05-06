@@ -18,23 +18,25 @@ import Link from 'next/link';
             
             
             <nav className="styles.topnav_links">
-                <ul>
-                    <li className={styles.topnav_item}>
-                        <Link className={styles.topnav_link} href="/" >Home</Link>
-                    </li>
+                <div className="styles.topnav_menu">
+                    <ul >
+                        <li className={styles.topnav_item}>
+                            <Link className={styles.topnav_link} href="/" >Home</Link>
+                        </li>
 
-                    <li className={styles.topnav_item}>
-                        <Link className={styles.topnav_link} href="/" >Resume</Link>
-                    </li>
+                        <li className={styles.topnav_item}>
+                            <Link className={styles.topnav_link} href="/" >Resume</Link>
+                        </li>
 
-                    <li className={styles.topnav_item}>
-                        <Link className={styles.topnav_link} href="/projects" >Projects</Link>
-                    </li>
+                        <li className={styles.topnav_item}>
+                            <Link className={styles.topnav_link} href="/projects" >Projects</Link>
+                        </li>
 
-                    <li className={styles.topnav_item}>
-                        <Link className={styles.topnav_link} href="/contact" >Contact</Link>
-                    </li>
-                </ul>
+                        <li className={styles.topnav_item}>
+                            <Link className={styles.topnav_link} href="/contact" >Contact</Link>
+                        </li>
+                    </ul> 
+                </div>
             </nav>
 
         </header>
