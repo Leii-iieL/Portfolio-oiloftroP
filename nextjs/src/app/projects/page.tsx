@@ -1,11 +1,15 @@
 import Image from "next/image";
 import styles from "@/app/page.module.css";
 import PROJECTS from "@/constants/projects";
+import Header from '@/components/header';
 
 export default function ProjectsPage() {
   return (
+
+    
     <div className={styles.page}>
       <h1>MY PROJECTS</h1>
+      <Header /> {/* Include the Header component here */}
 
       <div className={styles.row}>
           {

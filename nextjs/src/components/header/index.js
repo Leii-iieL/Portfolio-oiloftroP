@@ -1,6 +1,5 @@
  "use client"
 import React from 'react';
-//import HeaderString from "@/assets/header_string.svg"
 import styles from "./header.module.css";
 import Link from 'next/link';
 
@@ -11,7 +10,6 @@ import Link from 'next/link';
     return(
         <header 
             className={styles.header} 
-            // header string from old version, not needed: style={{backgroundImage: `url(${HeaderString.src})` }}
         >
             <div className={styles.menuIcon}><h1>{title}</h1>
             </div>
@@ -25,7 +23,7 @@ import Link from 'next/link';
                         </li>
 
                         <li className={styles.topnav_item}>
-                            <Link className={styles.topnav_link} href="/" >Resume</Link>
+                            <Link className={styles.topnav_link} href="/resume" >Resume</Link>
                         </li>
 
                         <li className={styles.topnav_item}>

@@ -11,26 +11,11 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
 
-      
+    
         <header>
           <Header title="Goldtrace Studio" /> 
-
-          
-
-            {/* <Image 
-              className={styles.logo_goldtrace}
-              // className={styles.logo}
-              src="/header_string.svg"
-              alt="Goldtrace logo"
-              width={500}
-              height={400}
-            /> */}
-            
-
-          {/* </header> */}
-
         </header>
-          
+        
 
 
 
@@ -44,14 +29,14 @@ export default function Home() {
           priority
         />
 
-          <ol>
-              <li>
-                Get started by editing <code>src/app/page.tsx</code>.
-              </li>
-              <li>Save and see your changes instantly.</li>
-            </ol>
+        <ol>
+          <li>
+            Get started by editing <code>src/app/page.tsx</code>.
+          </li>
+          <li>Save and see your changes instantly.</li>
+        </ol>
+        
           
-            
 
         <div className={styles.ctas}>
           <a
