@@ -3,8 +3,8 @@
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
 
-  --button-primary-hover: #d93838;
-  --button-secondary-hover: #f2f2f2;
+  --button-primary-hover: #F8C214;
+  --button-secondary-hover: #F8C214;
 
   display: grid;
   grid-template-rows: 20px 1fr 20px;
@@ -22,8 +22,8 @@
     --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
     --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
 
-    --button-primary-hover: #15fac8;
-    --button-secondary-hover: #d62424;
+    --button-primary-hover: #F8C214;
+    --button-secondary-hover: #F8C214;
   }
 }
 
