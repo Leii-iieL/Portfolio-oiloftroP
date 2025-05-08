@@ -5,7 +5,7 @@ import Header from '@/components/header';
 export default function ProjectsPage() {
   return (
     <div className={styles.page}>
-       <Header /> {/* Include the Header component here */}
+       <Header title="Goldtrace Studio" /> 
         <main className={styles.main}>
             <ContactForm />
         </main>

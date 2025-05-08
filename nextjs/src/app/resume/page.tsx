@@ -5,10 +5,13 @@ import Header from "@/components/header";
 export default function ProjectsPage() {
   return ( 
     <div className={styles.page}>
-       <Header /> {/* Include the Header component here */}
+        <header>
+          <Header title="Goldtrace Studio" /> 
+        </header>
       <main className={styles.main}>
-      </main>
       <h1>RESUME</h1>
+      </main>
+      
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function ProjectsPage() {
     
     <div className={styles.page}>
       <h1>MY PROJECTS</h1>
-      <Header /> {/* Include the Header component here */}
+      <Header title="Goldtrace Studio" /> 
 
       <div className={styles.row}>
           {
