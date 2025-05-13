@@ -1,0 +1,44 @@
+"use client"
+import React from 'react';
+import styles from "./footer.module.css";
+import Link from 'next/link';
+
+ const Header = (props) => {
+    console.log(props); //not NEEDED, just console log for testing
+    const {title} = props; 
+
+    return(
+        <header 
+            className={styles.header} 
+        >
+            <div className={styles.menuIcon}><h1>{title}</h1>
+            </div>
+            
+            
+            <nav className="styles.topnav_links">
+                <div className="styles.topnav_menu">
+                    <ul >
+                        <li className={styles.topnav_item}>
+                            <Link className={styles.topnav_link} href="/" >Home</Link>
+                        </li>
+
+                        <li className={styles.topnav_item}>
+                            <Link className={styles.topnav_link} href="/resume" >Resume</Link>
+                        </li>
+
+                        <li className={styles.topnav_item}>
+                            <Link className={styles.topnav_link} href="/projects" >Projects</Link>
+                        </li>
+
+                        <li className={styles.topnav_item}>
+                            <Link className={styles.topnav_link} href="/contact" >Contact</Link>
+                        </li>
+                    </ul> 
+                </div>
+            </nav>
+
+        </header>
+
+    );
+}
+export default Footer; 

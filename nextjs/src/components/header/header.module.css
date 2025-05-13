@@ -41,12 +41,6 @@
     padding-block: 1.5rem;
 }
 
-  @media screen and (max-width: 800px){
-   .topnav_menu {
-    background-color: aliceblue;
-   }
-  }
-
 
 
 .topnav_link /*&_links*/{
@@ -65,3 +59,11 @@
 .topnav_link:hover {
     color:blanchedalmond
 }
+
+
+@media screen and (max-width: 1200px){
+    .topnav_menu {
+     background-color: aliceblue;
+    }
+   }
+ 
