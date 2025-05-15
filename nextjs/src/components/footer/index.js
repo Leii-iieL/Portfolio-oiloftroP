@@ -1,4 +1,4 @@
-"use client"
+/* "use client"
 import React from 'react';
 import styles from "./footer.module.css";
 import Link from 'next/link';
@@ -41,4 +41,4 @@ import Link from 'next/link';
 
     );
 }
-export default Footer; 
+export default Footer; */
